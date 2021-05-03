@@ -10,7 +10,7 @@ module.exports.run = async (client, message, args) => {
     .setTitle("Invite & Support Link!")
     .addField("Support Server", "[Click to join support Server](https://discord.gg/E8GBVyqPfX)")
     .setTitle("Bot invite Link")
-    .addField("Invite Link", "[Click to invite the bot](https://discord.com/api/oauth2/authorize?client_id=820871786677010453&permissions=8&scope=bot)")
+    .addField("Invite Link", "[Click to invite the bot](https://discord.com/api/oauth2/authorize?client_id=838716101419466812&permissions=8&scope=bot)")
     .setTimestamp()
     .setFooter(`Requested by ${message.author.tag}`, client.user.displayAvatarURL())
     message.channel.send(invite);
