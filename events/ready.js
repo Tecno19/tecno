@@ -6,7 +6,7 @@ module.exports = (client) => {
   const activities = [`Giveaways in ${client.guilds.cache.size} guilds`,"g!help",`over ${client.users.cache.size} users!`];
   setInterval(() => {
     let activity = activities[Math.floor(Math.random() * activities.length)];
-    client.user.setActivity("~help", { type: "WATCHING" });
+    client.user.setActivity("~help", { type: "The official bot of  ⚡・ Thunder || https://discord.gg/E8GBVyqPfX" });
   }, 20000);
 
 };
