@@ -8,7 +8,7 @@ module.exports.run = async (client, message, args) => {
 
     let invite = new Discord.MessageEmbed()
     .setTitle("Invite & Support Link!")
-    .addField("Support Server", "[Click to join support Server](https://discord.gg/FyJjxz4Nep)")
+    .addField("Support Server", "[Click to join support Server](https://discord.gg/E8GBVyqPfX)")
     .setTitle("Bot invite Link")
     .addField("Invite Link", "[Click to invite the bot](https://discord.com/api/oauth2/authorize?client_id=820871786677010453&permissions=8&scope=bot)")
     .setTimestamp()
